@@ -1,0 +1,20 @@
+.project-style{
+  display: flex;  
+
+  img{
+    width: 838px;
+  }
+
+}
+
+.content-style{ 
+  margin-left: 30px;
+  
+}
+
+.super-container{
+  height: 1480px;
+  display: flex;
+  flex-direction: column;    
+  justify-content: space-between;  
+}
