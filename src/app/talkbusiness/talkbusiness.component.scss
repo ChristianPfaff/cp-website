@@ -1,0 +1,41 @@
+.main-formular{
+  background-color: #FEE383;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+
+  form{
+    margin-top: 95px;    
+    width: 500px; 
+  }
+
+  .main-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+  }
+  
+
+  input{
+    padding: unset;
+    border:none ;
+    height: 40px;
+    width: 100%;
+  }
+
+  label{
+    padding: unset;
+    width: 100%;
+    font-size: 20px;
+    color: darkslategrey;
+  }
+
+  textarea{
+    padding: unset;
+    border:none ;
+    resize: unset;
+    height: 80px;
+    width: 100%;
+  }
+}
