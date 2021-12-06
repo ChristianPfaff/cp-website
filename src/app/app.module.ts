@@ -8,6 +8,7 @@ import { WorkComponent } from './work/work.component';
 import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
 import { TalkbusinessComponent } from './talkbusiness/talkbusiness.component';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TalkbusinessComponent } from './talkbusiness/talkbusiness.component';
     WorkComponent,
     ProjectComponent,
     AboutComponent,
-    TalkbusinessComponent
+    TalkbusinessComponent,
+    ImprintComponent
   ],
   imports: [
     BrowserModule,

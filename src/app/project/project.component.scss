@@ -1,5 +1,7 @@
 .project-style{
-  display: flex;  
+  display: flex;
+  justify-content: space-between;  
+  margin-bottom: 140px;
 
   img{
     width: 838px;
@@ -7,14 +9,9 @@
 
 }
 
-.content-style{ 
-  margin-left: 30px;
-  
-}
-
 .super-container{
-  height: 1480px;
-  display: flex;
-  flex-direction: column;    
-  justify-content: space-between;  
-}
+    height: 1480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}    
