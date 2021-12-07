@@ -9,6 +9,9 @@ import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
 import { TalkbusinessComponent } from './talkbusiness/talkbusiness.component';
 import { ImprintComponent } from './imprint/imprint.component';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ImprintComponent } from './imprint/imprint.component';
     ProjectComponent,
     AboutComponent,
     TalkbusinessComponent,
-    ImprintComponent
+    ImprintComponent,
+    HomeComponent,
+    FooterComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
