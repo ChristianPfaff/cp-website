@@ -12,6 +12,7 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
+import { DataProtectionComponent } from './data-protection/data-protection.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MenuComponent } from './menu/menu.component';
     ImprintComponent,
     HomeComponent,
     FooterComponent,
-    MenuComponent
+    MenuComponent,
+    DataProtectionComponent
   ],
   imports: [
     BrowserModule,
