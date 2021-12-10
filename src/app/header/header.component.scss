@@ -1,6 +1,6 @@
 .head-container {
-  display: flex;
-  justify-content: space-between;
+  position: absolute;
+  top: 90px;
 
   span{        
     letter-spacing: 6px;   
@@ -18,9 +18,8 @@
     align-items: center;
     justify-content: center;
     cursor: pointer; 
+    margin-top: 226px;
   }
 
-  img {
-    width: 600px;    
-  }
+  
 }

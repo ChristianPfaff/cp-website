@@ -1,11 +1,22 @@
 .menu-style {
-  height: 170px; 
+  height: 800px;
   display: flex;
-  justify-content: center; 
-  align-items: center;
+  margin-left: 200px;
+  background-color: #f6f6f6;
+  position: relative;
+
+  img {
+    width: 900px;
+    align-items: flex-end;
+    width: 900px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 
   a {
-    margin: 0 20px 0 20px;
+    margin-left: 80px;
+    margin-top: 45px;
     text-decoration: unset;
     font-size: 26px;
     letter-spacing: 6px;
