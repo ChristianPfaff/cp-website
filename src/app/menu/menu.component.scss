@@ -6,12 +6,14 @@
   position: relative;
 
   img {
-    width: 900px;
     align-items: flex-end;
     width: 900px;
+    height: 675px;
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom: 0;    
+    object-fit: cover;
+    object-position: 0 -105px;
   }
 
   a {
@@ -23,3 +25,7 @@
     color: darkslategrey;
   }
 }
+
+
+
+
