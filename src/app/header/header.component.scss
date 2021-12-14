@@ -2,24 +2,32 @@
   position: absolute;
   top: 90px;
 
-  span{        
-    letter-spacing: 6px;   
+  span {
+    letter-spacing: 6px;
   }
 
-  .head-label{
+  .head-label {
     height: 120px;
     width: 320px;
     padding: 6px;
     border: 2px white solid;
-    border-radius: 10px;    
+    border-radius: 10px;
     color: black;
-    background-color: #FEE383;
+    background-color: #fee383;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer; 
+    cursor: pointer;
     margin-top: 226px;
   }
+}
 
-  
+@media  (max-width: 1878px) {
+  .head-container {
+    position: static;
+
+    .head-label {
+      margin-top: 0px;
+    }
+  }
 }

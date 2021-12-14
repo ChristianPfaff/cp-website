@@ -36,3 +36,28 @@
 .short-txt{
   margin-bottom: 150px;
 }
+
+@media (max-width: 1878px) {
+  .about-style{
+    position: unset; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+  }
+
+  .label-box{    
+    position: unset;
+    left: 33%;    
+    height: 315px;
+    
+  }
+  
+  .short-txt{
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+}
+
+@media(max-width: 1490px){
+
+}

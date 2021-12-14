@@ -27,5 +27,29 @@
 }
 
 
+@media  (max-width: 1878px) {
+  .menu-style {
+    justify-content: space-between;  
+    margin-left:unset; 
+    align-items: center;
+    flex-direction: column;
+    position: unset;
 
+    img {
+      align-items:unset;
+      position: unset;        
+      object-fit: cover;
+      object-position: 0 -105px;
+    }
+  }
 
+  .menu-style-container{
+    display: flex;
+  }
+
+  
+}
+
+    
+   
+   
