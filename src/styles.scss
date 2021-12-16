@@ -21,3 +21,28 @@ body{
   }  
 }
 
+@media (max-width: 1202px){
+  body{  
+    
+      h1{
+        font-size: 40px;
+      }
+    
+      h2{
+        font-size: 27px;
+      }
+      p{
+        font-size: 12px;
+      }
+    
+      span{
+        font-size: 13px;
+      }  
+  }
+}
+
+@media (max-width: 361px){
+  body{  
+    margin: 0 10px 0 10px;     
+  }
+}

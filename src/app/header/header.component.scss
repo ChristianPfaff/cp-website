@@ -22,7 +22,7 @@
   }
 }
 
-@media  (max-width: 1878px) {
+@media (max-width: 1878px) {
   .head-container {
     position: static;
 
@@ -30,4 +30,20 @@
       margin-top: 0px;
     }
   }
+}
+
+@media (max-width: 770px) {
+  .head-container {
+    position: static;
+    div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }   
+    .head-label {
+      height: 60px;
+      width: 210px;
+      margin-top: 0px;
+    }  
+  } 
 }
