@@ -25,3 +25,16 @@
     font-size: 21px;
   }
 }
+
+@media (max-width: 770px) {
+  .super-footer{
+    height: 220px;
+    justify-content: unset;    
+  }      
+}
+
+@media (max-width: 600px) {
+  .super-footer{
+    height: 140px;      
+  }      
+}

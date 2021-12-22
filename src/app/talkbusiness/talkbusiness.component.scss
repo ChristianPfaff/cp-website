@@ -5,6 +5,7 @@
   justify-content: space-around;
   margin-top: 250px;
 
+
   form {
     margin-top: 95px;
     width: 450px;
@@ -90,11 +91,15 @@
 
 @media (max-width: 770px) {
   .main-formular {  
-    height: 660px;
-    margin-left: -10px;
-    margin-right: -10px;
+    height: 570px;   
     form {    
       width:unset;
     }
+  } 
+}
+
+@media (max-width: 600px) {
+  .main-formular {  
+    height: 700px;      
   } 
 }
