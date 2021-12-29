@@ -54,7 +54,14 @@
     background-color:rgba(255, 255, 255, 0);
   }
 }
-    
+
+@media (max-width: 950px) {
+  .menu-container{
+    position:unset ;     
+  }
+}
+
+
 @media (max-width: 600px) {
   .menu-style {    
     a {      
