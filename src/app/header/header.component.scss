@@ -15,16 +15,22 @@
   .head-label {
     //height: 120px;
     //width: 320px;
+    display:inline-block;
     padding: 18px;
     border: 2px white solid;
-    border-radius: 10px;
-    color: black;
+    border-radius: 10px;    
     background-color: #fee383;
-    display: flex;
+   /*  display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     cursor: pointer;
     margin-top: 226px;
+    a{
+      text-decoration: unset;
+      color: black;
+      letter-spacing: 1.1em;
+    }
+    
   }
 
   img {
