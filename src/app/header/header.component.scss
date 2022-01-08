@@ -56,6 +56,15 @@
   }
 }
 
+@media (max-width: 1050px) {
+  .head-container {
+    img {
+      width: 250px;
+      height: 250px;    
+    }
+  }
+}
+
 @media (max-width: 950px) {
   .head-container {    
    flex-direction: column-reverse;
@@ -93,8 +102,12 @@
 
 
 
+
+
 @media (max-width: 600px) {
   .head-container {    
+
+   
     
     //margin-top: 100px;  
     padding: 10px 45px;
@@ -109,3 +122,9 @@
   }
   }
   
+  @media (max-width: 650px) and (orientation:landscape) {
+    .head-container {    
+      flex-direction: unset;  
+      padding-bottom: 50px;      
+    }
+  }
