@@ -25,7 +25,7 @@
 }
 
 .style-img-label{
-  width: 100vw;
+  width: 100%;
   position: relative;
 }
 
@@ -85,7 +85,7 @@
 @media(max-width: 770px){
   .about-style{ 
     img {    
-      width: 100vW; 
+      width: 100%; 
       margin: 30px 0 60px 0;
     }    
   }
@@ -97,13 +97,13 @@
 }
 
 @media(max-width: 600px){
-  .about-style{
+ /*  .about-style{
     
     img {    
-      width: 100vW; 
+      //width: 100%; 
       margin: 30px 0 60px 0;
     }    
-  }
+  } */
 
   /* .label-box{
     height: 130px;
