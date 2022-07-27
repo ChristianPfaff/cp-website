@@ -3,7 +3,7 @@
 ########### CONFIG ###############
 
 $recipient = 'c_pfaff@t-online.de';
-//$redirect = '';
+$redirect = 'https://christian-pfaff.net/success.html';
 
 ########### CONFIG END ###########
 
@@ -39,8 +39,8 @@ switch ($_SERVER['REQUEST_METHOD']) {
     case ("POST"): //Send the email;
         header("Access-Control-Allow-Origin: *");
 
-        $subject = "Contact From " . $_POST['name'];
-        $headers = "From:  noreply@developerakademie.com";
+        $subject = "Contact From " . $_POST['name'] . "<" . $_POST['email'] . ">";
+        $headers = "From:  noreply@christian-pfaff.net";
 
         mail($recipient, $subject, $_POST['message'], $headers);
         header("Location: " . $redirect); 
