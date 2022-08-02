@@ -1,48 +1,70 @@
 .head-container {
-  //position: absolute;
-  //top: 90px;
-  background-color: #F6F6F6;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  padding: 10px 100px;
+  border: 1px solid red;
 
-  span {
-    letter-spacing: 6px;
-  }
+  position: relative !important;
+  width: 1321px;
+  height: 769px;
+  left: 119px;
+  top: 0px;
 
-  .head-label {
-    //height: 120px;
-    //width: 320px;
-    display:inline-block;
-    padding: 18px;
-    border: 2px white solid;
-    border-radius: 10px;    
-    background-color: #fee383;
-   /*  display: flex;
+  h1 {
+    position: absolute;
+    width: 495px;
+    height: 360px;
+    left: 0px;
+    top: 148px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+
+    color: #000000;
+  }    
+
+  .btnCV {
+    position: absolute;
+    width: 353px;
+    height: 144px;
+    left: 0px;
+    top: calc(769px - 72px);
+    background: #FEE383;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center; */
-    cursor: pointer;
-    margin-top: 226px;
-    a{
+
+    a {      
       text-decoration: unset;
-      color: black;
-      letter-spacing: 1.1em;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+      letter-spacing: 8.29714px;
+      color: #000000;
+      mix-blend-mode: normal;
+      opacity: 0.6; 
     }
-    
-  }
+  } 
 
   img {
-    //align-items: flex-end;
-    width: 400px;
-    height: 400px;
-    //position: absolute;
-    //right: 0;
-    //bottom: 0;
-    object-fit: cover;
-    object-position: top;
-    border-radius: 50%;
+    position: absolute;
+    width: 742px;
+    height: 576.74px;
+    left: 579px;
+    top: 192.26px;    
+    object-fit: cover;     
+  }
+
+  .backgr {
+    position: absolute;
+    width: 1119px;
+    height: 713px;
+    left: 202px;
+    top: 0px;
+    background: #F6F6F6;
+    mix-blend-mode: normal;
   }
 }
 
