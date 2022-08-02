@@ -9,7 +9,7 @@ import { ProjectComponent } from './project/project.component';
 import { AboutComponent } from './about/about.component';
 import { TalkbusinessComponent } from './talkbusiness/talkbusiness.component';
 import { ImprintComponent } from './imprint/imprint.component';
-import { HomeComponent } from './home/home.component';
+
 import { FooterComponent } from './footer/footer.component';
 import { MenuComponent } from './menu/menu.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
@@ -22,8 +22,7 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
     ProjectComponent,
     AboutComponent,
     TalkbusinessComponent,
-    ImprintComponent,
-    HomeComponent,
+    ImprintComponent,   
     FooterComponent,
     MenuComponent,
     DataProtectionComponent
