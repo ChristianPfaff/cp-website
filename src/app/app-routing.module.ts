@@ -8,11 +8,11 @@ import { ImprintComponent } from './imprint/imprint.component';
 import { ProjectComponent } from './project/project.component';
 
 const routes: Routes = [
-  { path: '', component: HeaderComponent },
+  /* { path: '', component: HeaderComponent },
   { path: 'project', component: ProjectComponent },
   { path: 'about', component: AboutComponent },
   { path: 'imprint', component: ImprintComponent },
-  { path: 'data-protection', component: DataProtectionComponent }
+  { path: 'data-protection', component: DataProtectionComponent } */
 ];
 
 @NgModule({
