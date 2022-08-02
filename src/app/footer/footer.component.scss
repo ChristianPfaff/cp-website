@@ -1,18 +1,25 @@
+$gape: calc((100vw - 1440px)*0.5 - 8.5px);
+
 .super-footer {
   //height: 85px;
   color: darkslategrey;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  //margin: 35px 0 35px 0;
+  align-items: center;  
   background-color: #F6F6F6;
-  //padding: 60px 0;
+  position: fixed;
+  bottom: 0;
+  right: $gape;
+  left: $gape;
+  padding: 16px 0px;
+  
 
   p {
     font-size: 21px;
     margin: 0;
   }
+
+  
 }
 
 .footer-style {
@@ -26,9 +33,16 @@
     text-decoration: unset;
     font-size: 21px;
   }
+
+  
 }
 
-@media (max-width: 770px) {
+.puffer {
+  background-color: red;
+  height: 50px;
+}
+
+/* @media (max-width: 770px) {
   .super-footer{
     height: 220px;
     //justify-content: unset;    
@@ -40,3 +54,4 @@
     height: 140px;      
   }      
 }
+ */
