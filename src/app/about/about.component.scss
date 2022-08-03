@@ -1,23 +1,34 @@
 .about-style{
-  background-color: #F6F6F6;
   padding: 10px 100px;
   position: relative;
+  margin-bottom: 220px;
+
   img {
     //position:absolute;
     object-fit: cover;
     width: 100%;
-    height: 320px;
-    margin: 30px 0 23px 0;
+    height: 286px;    
   }
   
   h1{
     margin-top: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 120px;
+    color: #0B0A0A;
   }
 
-  hr{
-    width: 100%;
-  }
- 
+  p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.385714px;
+    color: #6D6D6D;
+  } 
 }
 
 .my-txt{
@@ -26,34 +37,33 @@
 
 .style-img-label{
   width: 100%;
+  height: 286px;
   position: relative;
-}
 
-.label-box{ 
-  
-  position: absolute;
-  top: 25%;
-  left: 25%;  
-  display: flex;
-  //flex-direction: column;
-  justify-content: space-evenly;
-  //width: 50%;
-  //height: 50%;
-  background-color: #fee383;
-  
-  div {
-    padding: 10px 10px;
-    margin: 0;
-  }
-  
-  .text-grey{
-    color: darkslategrey;
+  .label-box{ 
+    position: absolute;
+    width: 430px;
+    height: 276px;
+    left: 652px;
+    top: 50%;  
+    background: #FEE383;      
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-evenly;     
+    background-color: #fee383;   
   }
 }
 
 .short-txt{
   margin-bottom: 150px;
 }
+
+
+
+
+
+
+
 
 @media (max-width: 1878px) {
   .about-style{
