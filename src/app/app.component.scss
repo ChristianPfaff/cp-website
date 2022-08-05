@@ -1,12 +1,13 @@
 .desktop {
+  border: 1px solid red;
   margin: 0 auto;
   width: 1440px;
-  /* height: 100vh; */
-  /* background: #57933f59 */;
-  /* border: 1px solid green; */
   background: #FFFFFF;
-  
-
 }
 
 
+@media (max-width: 1280px){
+  .desktop {    
+    width: 1000px;   
+  }   
+}
