@@ -73,52 +73,80 @@
   } 
 }
 
-@media  (max-width: 1878px) {
+@media  (max-width: 1280px) {
   .main-formular {
-    padding:30px;
-  }  
-}
-
-@media  (max-width: 1202px) {
-  .main-formular {    
-    height: 600px;
+    background-color: #fee383;
+    height: 614px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-       
-    
-    h1{
-      margin-top: 0;
+    justify-content: space-around;
+    h1 {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 90px;
+      color: #111010; 
+      margin-bottom: 16px;   
     }
-    
+  
+    span {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #2E2E2E;
+    }
+  
     form {
-      margin-top: 0px;      
+      margin-top: 95px;
+      width: 450px;
     }
-
-    label {      
-      font-size: 10px;      
-    }
-
-    .main-section{
-      input, textarea {
-        font-size: 15px;
-      }
-    }
-  }
+  
+    .main-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 430px;    
     
+      label {
+        padding: unset;
+        width: 100%;    
+      }
+  
+      input {
+        margin-top: 10px;
+        padding: unset;
+        border: none;
+        height: 45px;
+        width: 100%;
+      }
+  
+      textarea {
+        margin-top: 10px;
+        padding: unset;
+        border: none;
+        resize: unset;
+        height: 100px;
+        width: 100%;
+      }
+  
+      label, input, textarea {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        color: #0D0D0C;
+      }
+  
+      button {
+        height: 70px;
+        margin-top: 20px;      
+        background-color: black;
+        color: white; 
+      }
+    } 
+  }
 }
 
-@media (max-width: 770px) {
-  .main-formular {  
-    height: 570px;   
-    form {    
-      width:unset;
-    }
-  } 
-}
-
-@media (max-width: 600px) {
-  .main-formular {  
-    height: 700px;      
-  } 
-}
