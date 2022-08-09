@@ -4,6 +4,7 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
 import { ImprintComponent } from './imprint/imprint.component';
 import { WebsiteComponent } from './website/website.component';
 
+
 const routes: Routes = [
   { path: '', component: WebsiteComponent },  
   { path: 'imprint', component: ImprintComponent },  

@@ -15,6 +15,8 @@ import { MenuComponent } from './menu/menu.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { WebsiteComponent } from './website/website.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatIconModule } from '@angular/material/icon';
+import {MatMenuModule} from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProjectComponent,
     AboutComponent,
     TalkbusinessComponent,
-    ImprintComponent,   
+    ImprintComponent,
     FooterComponent,
     MenuComponent,
     DataProtectionComponent,
@@ -33,9 +35,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatIconModule,
+    MatMenuModule    
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
