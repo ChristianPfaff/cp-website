@@ -17,6 +17,7 @@ import { WebsiteComponent } from './website/website.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import {MatMenuModule} from '@angular/material/menu';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 @NgModule({
   declarations: [
@@ -30,14 +31,15 @@ import {MatMenuModule} from '@angular/material/menu';
     FooterComponent,
     MenuComponent,
     DataProtectionComponent,
-    WebsiteComponent
+    WebsiteComponent     
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
-    MatMenuModule    
+    MatMenuModule,
+    MatSidenavModule      
   ],
   providers: [],
   bootstrap: [AppComponent],
