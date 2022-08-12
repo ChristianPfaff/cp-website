@@ -137,29 +137,30 @@
 
 @media (max-width: 768px) {
   .head-container {
-
-    /* border: 1px solid blue; */
-    position:static !important;
-    width: 880px;
-    height: 482px;
-    left:auto;
-    top:auto;
+    
+    //border: 1px solid blue;
+    position: static !important;
+    width: 100vw;
+    height: 1120px;
+    left: auto;
+    top: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
   
     h1 {
       position: static;
       width: 401px;
-      height: 144px;
+      height: 255px;
       left: auto;
       top: auto;
       font-family: "Poppins";
       font-style: normal;
       font-weight: 700;
-      font-size: 38px;
-      line-height: 53px;;
+      font-size: 64px;
+      line-height: 83px;
       color: #000000;
-      margin: 0 0 45px;
+      margin: 45px 305px 45px 0px;
     }    
   
     .btnCV {
@@ -189,22 +190,24 @@
   
     img {
       position: static;
-      width: 490px;
+      width: 100%;
       height: auto;
-      left:auto;
-      top:auto;
-      object-fit: cover;  
-      order: -1;   
+      left: auto;
+      top: auto;
+      object-fit: cover;
+      order: -1;
+      margin: 0px 0 25px 0;
     }
   
     .backgr {
-      position: static;
-      width: 741px;
-      height: 483px;
-      left: auto;
-      top: auto;
-      background: #efefef;
-      mix-blend-mode: normal;
+     display: none;
+     position: static;
+     width: auto;
+     height: auto;
+     left: auto;
+     top: auto;
+     background: #efefef;
+     mix-blend-mode:unset;
     }
   }
 
