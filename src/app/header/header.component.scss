@@ -1,11 +1,10 @@
 .head-container {
   position: relative;
-  border: 1px solid red;
-  width: 1360px;
-  padding-left: 140px;
-  height: 576.74px;
-  display: flex;
-  justify-content: space-between;
+    border: 1px solid red;
+    width: 1399px;    
+    height: 576.74px;
+    display: flex;
+    justify-content: space-between;
     
   h1 {   
     width: 495px;
@@ -20,7 +19,7 @@
 
   .btnCV {
     position: absolute;
-    left: 140px;
+    left: 0px;
     bottom: -72px;
     width: 353px;
     height: 144px;
@@ -51,11 +50,12 @@
 
   .backgr {  
     position: absolute;
-    left: 332px;
-    width: 427px;
+    border: 1px solid red;
+    width: 454px;
     height: 576.74px;
+    left: 201px;
     background: #efefef;
-    opacity: 0.2;    
+    opacity: 0.2;        
   }
 }
 

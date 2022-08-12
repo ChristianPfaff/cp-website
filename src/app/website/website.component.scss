@@ -5,10 +5,10 @@
 
   .inner-frame {
     border: 1px solid blue;
-    width: 1500px;
+    width: 1300px;
+    margin: 0 auto;
     height: auto;
     display: flex;
     flex-direction: column;
-    padding: 0 100px;
   }
 }
