@@ -1,16 +1,17 @@
 .head-container {
-  position: relative !important;
-  width: 1321px;
-  height: 769px;
-  left: 119px;
-  top: 0px;
-
+  position: relative;
+  border: 1px solid red;
+  width: 1360px;
+  padding-left: 140px;
+  height: 576.74px;
+  display: flex;
+  justify-content: space-between;
+    
   h1 {
-    position: absolute;
+   
     width: 495px;
     height: 360px;
-    left: 0px;
-    top: 148px; 
+     
 
     font-family: 'Poppins';
     font-style: normal;
@@ -23,10 +24,10 @@
 
   .btnCV {
     position: absolute;
+    left: 140px;
+    bottom: -72px;
     width: 353px;
     height: 144px;
-    left: 0px;
-    top: calc(769px - 72px);
     background: #FEE383;
     display: flex;
     justify-content: center;
@@ -47,22 +48,20 @@
   } 
 
   img {
-    position: absolute;
+    
     width: 742px;
     height: 576.74px;
-    left: 579px;
-    top: 192.26px;    
+        
     object-fit: cover;     
   }
 
-  .backgr {
+  .backgr {  
     position: absolute;
-    width: 1119px;
-    height: 769px;
-    left: 202px;
-    top: 0px;
+    left: 332px;
+    width: 427px;
+    height: 576.74px;
     background: #efefef;
-    mix-blend-mode: normal;
+    opacity: 0.2;    
   }
 }
 
@@ -130,7 +129,7 @@
       left: 140px;
       top: 0px;
       background: #efefef;
-      mix-blend-mode: normal;
+      
     }
   }
 }

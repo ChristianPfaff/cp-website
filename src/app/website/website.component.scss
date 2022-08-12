@@ -1,0 +1,11 @@
+.main {
+  margin: 0 auto;
+  width: 1500px;
+  background: #ffffff;
+
+  .inner-frame {
+    border: 1px solid blue;
+    width: 1500px;
+    height: 1000px;
+  }
+}
