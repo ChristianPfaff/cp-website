@@ -1,63 +1,77 @@
 .head-container {
-  position: relative;
+    position: relative;
     border: 1px solid red;
+    padding-top: 100px;
     width: 1399px;    
     height: 576.74px;
     display: flex;
     justify-content: space-between;
     
-  h1 {   
-    width: 495px;
-    height: 360px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 120px;
-    color: #000000;
-  }    
-
-  .btnCV {
-    position: absolute;
-    left: 0px;
-    bottom: -72px;
-    width: 353px;
-    height: 144px;
-    background: #FEE383;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    a {      
-      text-decoration: unset;
+    h1 {   
+      width: 495px;
+      height: 360px;
       font-family: 'Poppins';
       font-style: normal;
-      font-weight: 500;
-      font-size: 24px;
-      line-height: 36px;
-      letter-spacing: 8.29714px;
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 120px;
       color: #000000;
-      mix-blend-mode: normal;
-      opacity: 0.6; 
+      z-index: 5;
+    }    
+
+    .btnCV {
+      position: absolute;
+      left: 0px;
+      bottom: -72px;
+      width: 353px;
+      height: 144px;
+      background: #FEE383;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10;
+
+      a {      
+        text-decoration: unset;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 8.29714px;
+        color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.6; 
+      }
+    } 
+
+    img {    
+      width: 742px;
+      height: 576.74px;        
+      object-fit: cover;
+      z-index: 1;     
     }
-  } 
 
-  img {    
-    width: 742px;
-    height: 576.74px;        
-    object-fit: cover;     
-  }
+    .backgr {  
+      position: absolute;
+      border: 1px solid red;
+      width: 1197px;
+      height: 676.74px;
+      left: 201px;
+      top: 0;
+      background: #efefef;
+      opacity: 0.2;;        
+    }
 
-  .backgr {  
-    position: absolute;
-    border: 1px solid red;
-    width: 454px;
-    height: 576.74px;
-    left: 201px;
-    background: #efefef;
-    opacity: 0.2;        
-  }
+    .menu-postion {
+      position: absolute;
+      left: 316px;
+      top: 50px;
+    }
 }
+
+
+
 
 @media (max-width: 1280px) {
   .head-container {

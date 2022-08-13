@@ -1,8 +1,9 @@
 .main-formular {
   background-color: #fee383;
-  height: 730px;
+  height: 620px;
   display: flex;
   justify-content: space-around;
+  padding-top: 75px;
   h1 {
     font-family: 'Poppins';
     font-style: normal;
@@ -23,7 +24,7 @@
   }
 
   form {
-    margin-top: 95px;
+    margin-top: 45px;
     width: 450px;
   }
 
