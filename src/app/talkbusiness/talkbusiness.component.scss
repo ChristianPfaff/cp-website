@@ -75,158 +75,49 @@
 }
 
 @media  (max-width: 1280px) {
-  .main-formular {
-    background-color: #fee383;
-    height: 614px;
-    display: flex;
-    justify-content: space-around;
+  .main-formular{
+    height: 560px;
+
     h1 {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 90px;
-      color: #111010; 
-      margin-bottom: 16px;   
+      font-size: 43px;   
+      line-height: 55px;
+      margin-bottom: 0px;   
     }
-  
-    span {
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 150%;
-      color: #2E2E2E;
-    }
-  
-    form {
-      margin-top: 95px;
-      width: 450px;
-    }
-  
-    .main-section {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 430px;    
     
-      label {
-        padding: unset;
-        width: 100%;    
+    span {
+      font-size: 12px;
+    };
+
+    .main-section {
+      height: 425px;
+      width: 327px;
+;
+
+      label, input, textarea {        
+        font-size: 11px;
+        line-height: 20px;        
       }
-  
-      input {
-        margin-top: 10px;
-        padding: unset;
-        border: none;
-        height: 45px;
-        width: 100%;
-      }
-  
-      textarea {
-        margin-top: 10px;
-        padding: unset;
-        border: none;
-        resize: unset;
-        height: 100px;
-        width: 100%;
-      }
-  
-      label, input, textarea {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 150%;
-        color: #0D0D0C;
-      }
-  
+
       button {
-        height: 70px;
-        margin-top: 20px;      
+        height: 60px;
+        margin-top: 20px;
         background-color: black;
-        color: white; 
+        color: white;
+        font-size: 11px;
       }
-    } 
-  }
+    }
+
+    form {
+      margin-top: 28px;
+      width: 327px;
+    }
+  }  
 }
 
+
+
+
+
 @media  (max-width: 768px) {
-  #id-talk {
-    width: 200px;
-  }
-  .main-formular {
-    background-color: #fee383;
-    height: 614px;
-    display: flex;
-    justify-content: space-around;
-    h1 {
-      font-family: 'Poppins';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 48px;
-      line-height: 90px;
-      color: #111010; 
-      margin-bottom: 16px;   
-    }
   
-    span {
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 150%;
-      color: #2E2E2E;
-    }
-  
-    form {
-      margin-top: 95px;
-      width: 450px;
-    }
-  
-    .main-section {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 430px;    
-    
-      label {
-        padding: unset;
-        width: 100%;    
-      }
-  
-      input {
-        margin-top: 10px;
-        padding: unset;
-        border: none;
-        height: 45px;
-        width: 100%;
-      }
-  
-      textarea {
-        margin-top: 10px;
-        padding: unset;
-        border: none;
-        resize: unset;
-        height: 100px;
-        width: 100%;
-      }
-  
-      label, input, textarea {
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 150%;
-        color: #0D0D0C;
-      }
-  
-      button {
-        height: 70px;
-        margin-top: 20px;      
-        background-color: black;
-        color: white; 
-      }
-    } 
-  }
 }
