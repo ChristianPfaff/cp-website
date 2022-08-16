@@ -113,7 +113,31 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 360px) {
+  .head-container {
+    position: static;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
   
+
+    img {
+      order: -1;
+      width: 100%;
+    }
+
+    .btnCV {
+      position: static;      
+    }
+
+    h1 {
+      width: auto;
+      font-size: 32px;
+    line-height: 48px;
+    }
+
   
+
+  }  
 }
+

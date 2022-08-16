@@ -86,8 +86,14 @@
   }    
 }
   
-@media (max-width: 768px) {
+@media (max-width: 360px) {
 
-  
+  .project-style {    
+    flex-direction: column;
+
+    img {
+      width: 100%;      
+    }
+  } 
  
 }

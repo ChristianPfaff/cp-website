@@ -118,6 +118,18 @@
 
 
 
-@media  (max-width: 768px) {
-  
+@media  (max-width: 360px) {
+  .main-formular {
+    flex-direction: column;
+
+    .main-section {
+      height: 425px;
+      width: 250px;   
+    }
+
+    form {
+      margin-top: 28px;
+      width: 280px;
+    }
+  }
 }

@@ -22,3 +22,14 @@
     }
   }
 }
+
+@media (max-width:360px) {
+  .main {
+    width: 360px;
+
+    .inner-frame {
+      width: 280px;
+    }
+  }
+
+}

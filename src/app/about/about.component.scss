@@ -80,8 +80,20 @@
  }
 }
 
-@media (max-width: 768px) {
- 
+@media (max-width: 360px) {
+ .about-style {
+  padding: 0;
+ }
+
+ .style-img-label {
+
+  .label-box {
+    width: 240px;
+    height: 193px;
+    left: 20px;
+    top: 71%;   
+  }
+ }
 
 }
 
