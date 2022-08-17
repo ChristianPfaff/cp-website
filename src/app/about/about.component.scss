@@ -88,6 +88,12 @@
     font-size: 12px;
     line-height: 24px;
   }
+
+  img {
+    position: absolute;
+    left: -10px;
+    width: 100vw;
+  }
   
  }
 
@@ -97,7 +103,8 @@
     width: 240px;
     height: 193px;
     left: 50px;
-    top: 71%;   
+    top: 71%; 
+    z-index: 1;  
   }
  }
 

@@ -120,7 +120,25 @@
 
 @media  (max-width: 360px) {
   .main-formular {
+    width: 100vw;
+    margin-left: -10px;
+    padding: 16px;
+
+    span {
+        width: 258px;
+      display: block;
+
+      br {
+        display: none;
+      }
+    }
+    
+    
+    
     flex-direction: column;
+    h1 {
+      font-size: 32px;
+    }
 
     .main-section {
       height: 425px;
@@ -131,5 +149,10 @@
       margin-top: 28px;
       width: 280px;
     }
+  }
+
+  app-talkbusiness {
+    //position: relative;
+   
   }
 }
