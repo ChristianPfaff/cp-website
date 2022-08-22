@@ -114,14 +114,9 @@
   }  
 }
 
-
-
-
-
 @media  (max-width: 360px) {
   .main-formular {
-    width: 100vw;
-    margin-left: -10px;
+    margin: 0px -10px;
     padding: 16px;
 
     span {
@@ -142,12 +137,12 @@
 
     .main-section {
       height: 425px;
-      width: 250px;   
+      width: 330px;   
     }
 
     form {
       margin-top: 28px;
-      width: 280px;
+      width: 100%;
     }
   }
 

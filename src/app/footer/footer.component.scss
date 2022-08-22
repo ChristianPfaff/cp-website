@@ -28,3 +28,10 @@
   }  
 }
 
+@media (max-width: 360px) {
+  .super-footer {
+    margin: 0 -10px;
+    height: 120px;
+    line-height: 250%;
+  }
+}
