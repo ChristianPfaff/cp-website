@@ -4,7 +4,7 @@
   background: #ffffff;
 
   .inner-frame {
-    border: 1px solid blue;
+    //border: 1px solid blue;
     width: 1300px;
     margin: 0 auto;
     height: auto;
@@ -36,7 +36,7 @@
   .example-container {
     width: 360px;
     height: auto;
-    border: 1px solid rgba(0, 0, 0, 0.5);
+    //border: 1px solid rgba(0, 0, 0, 0.5);
   }
   
   .example-sidenav-content {
@@ -50,11 +50,18 @@
   }
   
   mat-drawer {
-    width: 30%;
+    width: 40%;
     a {      
       display: flex;
       flex-direction: column;
       padding-bottom: 16px;
+      text-decoration: unset;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;      
+      line-height: 24px;
+      letter-spacing: 6.33143px;
+      color: #000000;
     }
   }
   
