@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { HostListener } from "@angular/core";
 
 @Component({
   selector: 'app-website',
@@ -7,10 +7,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./website.component.scss']
 })
 export class WebsiteComponent implements OnInit {
+  showContent = true;
 
-  constructor() { }
+  screenHeight!: number;
+  screenWidth!: number;
 
-  ngOnInit(): void {
+  constructor() { 
+    this.getScreenSize();
   }
 
+  ngOnInit(): void {    
+  }
+  
+  @HostListener('window:resize', ['$event'])
+    getScreenSize() {
+          this.screenHeight = window.innerHeight;
+          this.screenWidth = window.innerWidth;          
+    }
 }
+
+
+

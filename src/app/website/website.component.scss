@@ -25,6 +25,7 @@
 
 @media (max-width:360px) {
   .main {
+    position: relative;
     width: 360px;
 
     .inner-frame {
@@ -32,4 +33,46 @@
     }
   }
 
+  .example-container {
+    width: 360px;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100vh;  
+    flex-direction: column;  
+  }
+  
+  .example-sidenav {
+    padding: 20px;  
+  }
+  
+  mat-drawer {
+    width: 30%;
+    a {      
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 16px;
+    }
+  }
+  
+  mat-drawer-inner-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav {
+   position:fixed;  
+   left: 10px;
+   width: 340px;
+   background-color: transparent;
+   z-index: 1000;
+    
+    .mat-icon {
+      padding-left: 310px;
+      padding-top: 16px;
+    }
+  }
 }
