@@ -1,4 +1,6 @@
 .main-formular {
+  width: 1500px;
+  margin-left: -100px;
   background-color: #fee383;
   height: 620px;
   display: flex;
@@ -76,6 +78,8 @@
 
 @media  (max-width: 1280px) {
   .main-formular{
+    width: 1100px;
+    margin-left: -100px;
     height: 560px;
 
     h1 {
@@ -114,9 +118,16 @@
   }  
 }
 
-@media  (max-width: 360px) {
+@media  (max-width: 1280px) {
+  .main-formular{
+    width: 1080px;
+    margin-left: -70px;    
+  }
+}
+
+@media  (max-width: 1080px) {
   .main-formular {
-    margin: 0px -10px;
+    //margin: 0px -10px;
     padding: 16px;
 
     span {
@@ -145,9 +156,5 @@
       width: 100%;
     }
   }
-
-  app-talkbusiness {
-    //position: relative;
-   
-  }
+ 
 }

@@ -1,7 +1,10 @@
 body{
   margin: 0;
   background-color: #E5E5E5;
-  }
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  }
 
   .p-l-80 {
     padding-left:80px;
@@ -40,31 +43,31 @@ body{
 
 
   @media (max-width: 1280px) {
-  .txt-contact-1 {  
-    font-size: 11px;
-    line-height: 10px;
-    text-align: right; 
+    .txt-contact-1 {  
+      font-size: 11px;
+      line-height: 10px;
+      text-align: right; 
+    }
+
+    .txt-contact-2 {  
+      font-size: 10px;
+      line-height: 10px; 
+    }
   }
 
-  .txt-contact-2 {  
-    font-size: 10px;
-    line-height: 10px; 
-  }
-
-  @media (max-width:360px) {
+  @media (max-width:1080px) {
     .p-r-80 {
       padding-right:0px;
     }
     .p-l-80 {
       padding-left: 0px;
-    }
-
-   
-
+    }    
   }
-}
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+  .font-size-120 {
+    font-size: 120px;
+    color: red;
+  }
+
 
 
