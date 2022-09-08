@@ -1,6 +1,5 @@
 .head-container {
-    position: relative;
-    //border: 1px solid red;
+    position: relative;    
     padding-top: 100px;
     width: 1399px;    
     height: 576.74px;
@@ -12,9 +11,7 @@
       height: 360px;
       font-family: 'Poppins';
       font-style: normal;
-      font-weight: 700;
-      font-size: 80px;
-      line-height: 120px;
+      font-weight: 700;      
       color: #000000;
       z-index: 5;
     }    
@@ -153,9 +150,7 @@
       position: absolute;
       left: 0px;
       top: 0px;
-    }   
-    
-  }
-  
+    }     
+  }  
 }
 

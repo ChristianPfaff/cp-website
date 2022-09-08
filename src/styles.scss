@@ -1,10 +1,9 @@
+html, body { height: 100%; }
+
 body{
   margin: 0;
   background-color: #E5E5E5;
-}
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  }
+  font-family: Roboto, "Helvetica Neue", sans-serif;
 
   .p-l-80 {
     padding-left:80px;
@@ -41,6 +40,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  }
     color: #2E2E2E;
   }
 
+  .size-h1 {
+    font-size: 80px;
+  line-height: 120px;  
+  }
+  
+  .size-h2 {
+    font-size: 54px;
+    line-height: 81px;
+  }
+
+  .size-p {
+    font-size: 18px;
+    line-height: 33px;
+  }
 
   @media (max-width: 1280px) {
     .txt-contact-1 {  
@@ -64,10 +77,15 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;  }
     }
 
     .size-h1 {
-      font-size: 10px;
+      /* font-size: 10px; */
       color: red;
     }    
   }
+}
+
+
+
+ 
 
 
 

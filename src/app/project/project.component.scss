@@ -1,11 +1,9 @@
-.project-container {
-  //padding: 10px 100px;
+.project-container {  
   h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 80px;
-    line-height: 120px;
+    
     color: #100F0F;
     margin-top: 170px;
   }
@@ -15,9 +13,7 @@
   h2 {    
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
-    font-size: 54px;
-    line-height: 81px;
+    font-weight: 700;    
     letter-spacing: -0.257143px;
     color: #999999;
   }
@@ -29,8 +25,7 @@
     line-height: 33px;
     letter-spacing: 0.385714px;
     color: #6D6D6D;
-    text-align: justify;
-    
+    text-align: justify;    
   }
 }
 
@@ -55,43 +50,22 @@
 @media (max-width: 1280px) {
   .project-container {
     font-size: 68px;   
-    margin-top: 110px;
-
-    h1 {
-      font-size: 60px;   
-    }
-
-    h2 {
-      font-size: 12px;
-    }
+    margin-top: 110px;   
   }
  
-  .project-style {
-    
+  .project-style {    
     img {
       width: auto;
       height: 250px;
     }
-  }
-
-  .content-style {
-    p {
-      font-size: 12px;
-      line-height: 24px;
-    }  
-
-    h2 {
-      font-size: 30px;
-    }
-  }    
+  }  
 }
   
 @media (max-width: 1080px) {
   .project-container {
     margin-top: 340px;
     h1 {
-      margin-top: 0;
-      //font-size: 64px;
+      margin-top: 0;      
       line-height: 128px;      
     }
     h2 {   
@@ -127,9 +101,8 @@
 
       .br-style {
         display: none;
-      }            
+      }   
       
-    }
-    
+    }    
   }  
 }
