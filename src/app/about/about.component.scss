@@ -14,15 +14,12 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    /* font-size: 55px;
-    line-height: 64px; */
-    color: #0B0A0A;
+          color: #0B0A0A;
   }
 
   p {
     font-family: 'Poppins';
     font-style: normal;    
-    line-height: 33px;
     letter-spacing: 0.385714px;
     color: #6D6D6D;
   } 
@@ -58,10 +55,7 @@
 
 @media (max-width: 1280px) {
  .about-style {
-  h1 {
-    font-size: 60px;    
-  }
-  
+   
   p {
     text-align: justify;    
   }
@@ -83,20 +77,15 @@
   padding: 0;
   margin-top: 32px;
   h1 {
-    font-size: 32px;
     margin: 0;
   }
   p {
-    text-align: start;
-    font-size: 12px;
-    line-height: 24px;
+    text-align: start;    
   }
 
   img {
-    position: absolute;
-    
-  }
-  
+    position: absolute;    
+  }  
  }
 
  .style-img-label {
@@ -109,7 +98,6 @@
     z-index: 1;  
   }
  }
-
 }
 
 

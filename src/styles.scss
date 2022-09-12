@@ -3,7 +3,7 @@ html, body { height: 100%; }
 body{
   margin: 0;
   background-color: #E5E5E5;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-family: 'Poppins';
 
   .p-l-80 {
     padding-left:80px;
@@ -77,9 +77,20 @@ body{
     }
 
     .size-h1 {
-      /* font-size: 10px; */
-      color: red;
-    }    
+      font-size: 100px;
+    line-height: 150px;  
+    }  
+
+    .size-h2 {
+      font-size: 80px;
+      line-height: 81px;
+    }
+
+    .size-p {
+      font-size: 30px;
+      line-height: 50px;
+    }
+       
   }
 }
 

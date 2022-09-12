@@ -10,7 +10,7 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 60px;
+    //font-size: 60px;
     line-height: 90px;
     color: #111010; 
     margin-bottom: 16px;   
@@ -83,14 +83,14 @@
     height: 560px;
 
     h1 {
-      font-size: 43px;   
+      //font-size: 43px;   
       line-height: 55px;
       margin-bottom: 0px;   
     }
     
-    span {
+    /* span {
       font-size: 12px;
-    };
+    }; */
 
     .main-section {
       height: 425px;
@@ -126,9 +126,9 @@
 }
 
 @media  (max-width: 1080px) {
-  .main-formular {
-    //margin: 0px -10px;
+  .main-formular {   
     padding: 16px;
+    align-items: center;
 
     span {
         width: 258px;
@@ -142,9 +142,9 @@
     
     
     flex-direction: column;
-    h1 {
+    /* h1 {
       font-size: 32px;
-    }
+    } */
 
     .main-section {
       height: 425px;
@@ -153,7 +153,7 @@
 
     form {
       margin-top: 28px;
-      width: 100%;
+      
     }
   }
  
