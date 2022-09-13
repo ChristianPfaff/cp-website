@@ -74,14 +74,15 @@
   
   .nav {
    position:fixed;  
-   left: 10px;
-   width: 340px;
+   left: 718px;
+   width: 100px;
    background-color: transparent;
    z-index: 1000;
     
     .mat-icon {
       padding-left: 310px;
-      padding-top: 16px;
+      padding-top: 16px;   
+      font-size: 48px;
     }
   }
 }
