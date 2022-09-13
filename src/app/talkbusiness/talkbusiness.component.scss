@@ -9,9 +9,7 @@
   h1 {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 700;
-    //font-size: 60px;
-    line-height: 90px;
+    font-weight: 700;        
     color: #111010; 
     margin-bottom: 16px;   
   }
@@ -19,9 +17,7 @@
   span {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 150%;
+    font-weight: 400;    
     color: #2E2E2E;
   }
 
@@ -82,15 +78,9 @@
     margin-left: -100px;
     height: 560px;
 
-    h1 {
-      //font-size: 43px;   
-      line-height: 55px;
+    h1 {        
       margin-bottom: 0px;   
-    }
-    
-    /* span {
-      font-size: 12px;
-    }; */
+    }    
 
     .main-section {
       height: 425px;
@@ -118,43 +108,56 @@
   }  
 }
 
-@media  (max-width: 1280px) {
+/* @media  (max-width: 1280px) {
   .main-formular{
     width: 1080px;
     margin-left: -70px;    
   }
-}
+} */
 
 @media  (max-width: 1080px) {
   .main-formular {   
-    padding: 16px;
+    padding: unset;
+    width: 1080px;
+    margin: 0 0 0 -40px;
     align-items: center;
-
+    height: 1025px;
     span {
-        width: 258px;
+        width: 680px;
       display: block;
 
       br {
         display: none;
       }
-    }
-    
-    
+    }   
     
     flex-direction: column;
-    /* h1 {
-      font-size: 32px;
-    } */
-
+    
     .main-section {
-      height: 425px;
-      width: 330px;   
+      height: 625px;
+      width: 100%;   
+
+      label, input, textarea {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 60px;
+        color: #0D0D0C;
+      }
     }
 
     form {
-      margin-top: 28px;
-      
+      width: 1000px;
+      margin-top: 0px;      
     }
+
+    .talk {
+      width: 1000px;
+    }
+
+    
+  
   }
  
 }
