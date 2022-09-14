@@ -107,6 +107,41 @@
  }
 }
 
-
+@media (max-width: 768px) {
+  .about-style {
+   width: auto;
+   margin-left: -40px;
+   padding: 0;
+   margin-top: 32px;
+   
+   h1 {
+     margin: 0;
+     padding-left: 40px;
+   }
+   p {
+     text-align: start; 
+     padding: 0 40px 0 40px;   
+   }
+ 
+   img {
+     position: absolute; 
+     height: 500px;  
+     width: 778px; 
+   }  
+  }
+ 
+  .style-img-label {
+   height: 570px;
+ 
+   .label-box {
+     width: 480px;
+     height: 320px;
+     left: 144px;
+     top: 396px;
+     z-index: 1; 
+     padding: 16px; 
+   }
+  }
+ }
 
 

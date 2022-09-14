@@ -55,6 +55,9 @@ body{
     line-height: 33px;
   }
 
+  
+
+
   @media (max-width: 1280px) {
     .txt-contact-1 {  
       font-size: 11px;
@@ -103,9 +106,17 @@ body{
     }
        
   }
+
+  @media (max-width:768px) {
+    mat-drawer {
+      .size-a {
+        font-size: 22px;      
+      }
+         
+    }   
+  }
+
 }
-
-
 
  
 

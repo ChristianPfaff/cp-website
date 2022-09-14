@@ -45,3 +45,10 @@
     margin-left: -70px;       
   }
 }
+
+@media (max-width: 768px) {
+  .super-footer {
+    width: auto;  
+    margin: 0 -30px;         
+  }
+}

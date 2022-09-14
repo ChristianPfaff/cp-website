@@ -100,4 +100,47 @@
       
     }    
   }  
+
+  @media (max-width: 768px) {
+    .project-container {
+      margin-top: 520px;
+      h1 {
+        margin-top: 0;                  
+      }
+      h2 {   
+        margin-bottom: 0;
+      }
+    }
+  
+    .project-style {    
+      flex-direction: column;
+      text-align:left ;
+      margin-bottom: 0px;
+      
+      img {
+        width: 100%; 
+        height: auto;
+        padding-top: 64px;          
+      }
+  
+      .p-r-80 {
+        padding-right:0;
+      }   
+  
+      .content-style {
+        order: 2;
+        padding-top: 64px;      
+        background-color: #F6F6F6;
+        
+        h2 {
+          margin-bottom: 16px;
+        }
+  
+        .br-style {
+          display: none;
+        }   
+        
+      }    
+    }
+  }  
 }
