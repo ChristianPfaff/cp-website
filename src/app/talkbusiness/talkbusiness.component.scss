@@ -211,3 +211,11 @@
     }  
   } 
 }
+
+@media (max-width:360px) {
+ .main-formular {
+    span {
+      width: auto;
+    }  
+  }
+}

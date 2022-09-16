@@ -150,32 +150,41 @@
       left: 0px;
       top: 0px;
     }     
-  }
-
-  @media (max-width:1024px) and (orientation: landscape)  {
-    .head-container {     
-      width: 100%;
-      left: 0;
-    }     
-  }
-
-
-  
-  @media (max-width: 768px) {
-    .head-container {      
-      left: -30px;        
-    
-      .btnCV {        
-        left: 109px;        
-        width: 550px;                       
-      }
-    
-      .menu-postion {
-        position: absolute;
-        left: 0px;
-        top: 0px;
-      }     
-    }  
-  }
+  }  
 }
 
+@media (max-width:1024px) and (orientation: landscape)  {
+  .head-container {     
+    width: 100%;
+    left: 0;
+  }     
+}
+
+
+
+@media (max-width: 768px) {
+  .head-container {      
+    left: -30px;        
+  
+    .btnCV {        
+      left: 109px;        
+      width: 550px;                       
+    }
+  
+    .menu-postion {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+    }     
+  }  
+}
+
+@media (max-width: 360px) {
+  .head-container {              
+  
+    .btnCV {        
+      left: 30px;        
+      width: 300px;                       
+    }          
+  }  
+}

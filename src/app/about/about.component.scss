@@ -163,4 +163,20 @@
   }
  }
 
-
+@media (max-width:360px) {
+  .about-style {
+    img {     
+      height: 500px;  
+      width: 100%; 
+    } 
+  }
+  .style-img-label {
+    .label-box {
+      width: 170px;
+      height: 320px;
+      left: 95px;
+      top: 396px;     
+    }
+  }
+  
+}

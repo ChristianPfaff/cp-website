@@ -165,3 +165,17 @@
   }
 }
 
+@media (max-width:360px) {
+  .example-container {
+    width: 360px;
+    height: auto;    
+  } 
+
+  .main {    
+    width: 360px;
+
+    .inner-frame {
+      width: 280px;      
+    }
+  }
+}
