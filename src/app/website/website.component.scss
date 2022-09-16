@@ -86,6 +86,32 @@
   }
 }
 
+@media (max-width:1024px) and (orientation: landscape)  {
+  .example-container {
+    width: 1024px;    
+  }
+
+  .main {
+    width: 1024px;
+
+    .inner-frame {
+      width: 976px;
+    }
+  }
+
+  .nav {
+    position:fixed;  
+    left: 0px;
+    width: 100px;
+    background-color: transparent;
+    z-index: 1000;
+     
+     .mat-icon {
+       padding-left: 986px;       
+     }
+   }
+}
+
 @media (max-width:768px) {
   .main {
     position: relative;
@@ -138,3 +164,4 @@
    }
   }
 }
+

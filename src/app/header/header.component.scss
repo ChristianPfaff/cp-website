@@ -108,6 +108,8 @@
   }
 }
 
+
+
 @media (max-width: 1080px) {
   .head-container {
     position: relative;
@@ -149,6 +151,15 @@
       top: 0px;
     }     
   }
+
+  @media (max-width:1024px) and (orientation: landscape)  {
+    .head-container {     
+      width: 100%;
+      left: 0;
+    }     
+  }
+
+
   
   @media (max-width: 768px) {
     .head-container {      

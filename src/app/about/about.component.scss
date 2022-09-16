@@ -107,6 +107,25 @@
  }
 }
 
+@media (max-width:1024px) and (orientation: landscape)  {
+  .about-style {     
+    width: 100%;
+    margin-left: 0;
+    h1 {
+      padding-left: 0;
+    }
+    p {      
+      padding: 0;   
+    }
+  } 
+  
+  .style-img-label {      
+    .label-box {      
+      left: 248px;       
+    }
+   }
+}
+
 @media (max-width: 768px) {
   .about-style {
    width: auto;

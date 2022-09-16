@@ -46,9 +46,17 @@
   }
 }
 
+@media (max-width:1024px) and (orientation: landscape)  {
+  .super-footer {
+    width: 100%;
+  margin-left: 0;
+  }
+    
+}
+
 @media (max-width: 768px) {
   .super-footer {
-    width: auto;  
-    margin: 0 -30px;         
+    width: 100%;
+    margin-left: 0;         
   }
 }
