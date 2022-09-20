@@ -216,6 +216,17 @@
  .main-formular {
     span {
       width: auto;
-    }  
+    } 
+  
+    .main-section {     
+      label, input, textarea {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #0D0D0C;
+      }     
+    }
   }
 }

@@ -166,6 +166,14 @@
 }
 
 @media (max-width:360px) {
+  mat-drawer {
+    width: 52%;  
+  }
+
+  .nav {
+    left: 315px;         
+   }
+
   .example-container {
     width: 360px;
     height: auto;    

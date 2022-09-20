@@ -165,17 +165,26 @@
 
 @media (max-width:360px) {
   .about-style {
+    margin-bottom: 0px;
+    
+    p {
+      text-align: center;
+      padding: 0 40px 0 40px;
+      padding: 0 0px 0 40px;
+    }
+    
     img {     
-      height: 500px;  
-      width: 100%; 
+      height: 290px;
+      width: 100vw; 
     } 
   }
   .style-img-label {
+    height: 450px;
     .label-box {
-      width: 170px;
-      height: 320px;
-      left: 95px;
-      top: 396px;     
+      width: 185px;
+      height: 170px;
+      left: 71.5px;
+      top: 250px;     
     }
   }
   
