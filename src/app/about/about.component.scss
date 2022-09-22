@@ -1,5 +1,5 @@
 .about-style{
-  padding: 10px 100px;
+  padding: 10px 0px;
   position: relative;
   margin-bottom: 220px;
 
@@ -39,7 +39,7 @@
     position: absolute;
     width: 430px;
     height: 276px;
-    left: 580px;
+    left: 760px;
     top: 50%;  
     background: #FEE383;      
     display: flex;
@@ -55,6 +55,7 @@
 
 @media (max-width: 1280px) {
  .about-style {
+  
    
   p {
     text-align: justify;    
@@ -166,7 +167,7 @@
 @media (max-width:360px) {
   .about-style {
     margin-bottom: 0px;
-    
+
     p {
       text-align: center;
       padding: 0 40px 0 40px;
