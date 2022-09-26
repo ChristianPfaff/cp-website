@@ -4,7 +4,6 @@
   background: #ffffff;
 
   .inner-frame {
-    //border: 1px solid blue;
     width: 1300px;
     margin: 0 auto;
     height: auto;
@@ -37,8 +36,7 @@
 
   .example-container {
     width: 1080px;
-    height: auto;
-    //border: 1px solid rgba(0, 0, 0, 0.5);
+    height: auto;   
   }
   
   .example-sidenav-content {
@@ -138,9 +136,7 @@
       display: flex;
       flex-direction: column;
       padding-bottom: 16px;
-      text-decoration: unset;
-      font-family: 'Poppins';
-      font-style: normal;
+      text-decoration: unset;      
       font-weight: 500;      
       letter-spacing: 6.33143px;
       color: #000000;
