@@ -50,7 +50,7 @@
   margin-bottom: 150px;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1550px) {
  .about-style {  
    
   p {
@@ -63,48 +63,59 @@
   .label-box {
     width: 235px;
     height: 160px;
-    left: 379px;
+    left: 540px;
     top: 76%;   
   }
  }
 }
 
-@media (max-width: 1080px) {
- .about-style {
-  width: 1080px;
-  margin-left: -40px;
-  padding: 0;
-  margin-top: 32px;
+@media (max-width: 1120px) {
   
-  h1 {
-    margin: 0;
-    padding-left: 40px;
-  }
-  p {
-    text-align: start; 
-    padding: 0 40px 0 40px;   
-  }
-
-  img {
-    position: absolute; 
-    height: 500px;   
-  }  
- }
-
- .style-img-label {
-  height: 570px;
-
-  .label-box {
-    width: 480px;
-    height: 320px;
-    left: 300px;
-    top: 396px;
-    z-index: 1;  
-  }
- }
+  .style-img-label {
+    .label-box {      
+      left: 397px;        
+    }
+   } 
 }
 
-@media (max-width:1024px) and (orientation: landscape)  {
+@media (max-width: 820px) {
+  .style-img-label {
+    .label-box {
+      width: 220px;     
+      left: 248px;         
+    }
+   }
+}
+
+@media (max-width: 680px) {  
+  
+  .about-style  {   
+    display: flex;
+    flex-direction: column;  
+    margin-bottom: 40px;  
+    p {
+      order: 2;
+      text-align: center;
+    }
+
+    .style-img-label {
+      order: 1;
+      margin-bottom: 140px;
+      padding-top: 0px;
+      
+      .label-box {      
+        left: 40px;        
+      }
+
+      img {
+        width: 320px;
+        margin-left: -10px;
+      }
+     }     
+  }   
+}
+
+/* @media (max-width:1024px) and (orientation: landscape)  {
   .about-style {     
     width: 100%;
     margin-left: 0;
@@ -121,9 +132,9 @@
       left: 248px;       
     }
    }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 820px) {
   .about-style {
    width: auto;
    margin-left: -40px;
@@ -158,9 +169,9 @@
      padding: 16px; 
    }
   }
- }
+ } */
 
-@media (max-width:360px) {
+/* @media (max-width:360px) {
   .about-style {
     margin-bottom: 0px;
 
@@ -185,4 +196,4 @@
     }
   }
   
-}
+} */

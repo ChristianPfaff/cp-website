@@ -1,7 +1,6 @@
 .project-container {  
-  h1 {
-    margin-top: 170px;    
-  }
+  margin-top: 170px; 
+  
 }
 
 .content-style {  
@@ -29,11 +28,7 @@
   justify-content: space-between;
 }
 
-@media (max-width: 1280px) {
-  .project-container {
-    font-size: 68px;   
-    margin-top: 110px;   
-  }
+@media (max-width: 1550px) { 
  
   .project-style {    
     img {
@@ -43,94 +38,62 @@
   }  
 }
   
-@media (max-width: 1080px) {
-  .project-container {
-    margin-top: 520px;
-    h1 {
-      margin-top: 0;                  
-    }
-    h2 {   
-      margin-bottom: 0;
-    }
+@media (max-width: 1120px) {
+  .project-container {  
+    margin-top: 120px; 
+    
   }
-
+ 
   .project-style {    
-    flex-direction: column;
-    text-align:left ;
-    margin-bottom: 0px;
+    
+    margin-bottom: 60px;
     
     img {
-      width: 100%; 
-      height: auto;
-      padding-top: 64px;          
+      width: auto; 
+      height: 195px;               
     }
+    
+  } 
+}
 
-    .p-r-80 {
-      padding-right:0;
-    }   
+
+
+@media (max-width: 820px) {
+
+  .project-container {  
+    margin-top: 85px;     
+  }  
+
+  .project-style {      
+    margin-bottom: 60px;
+    
+    img {
+      width: auto; 
+      height: 135px;               
+    }    
+  } 
+}
+
+@media (max-width: 680px) {
+
+  .project-container {  
+    margin-top: 85px;     
+  }  
+
+  .project-style {      
+    margin-bottom: 20px;
+    flex-direction: column;
 
     .content-style {
       order: 2;
-      padding-top: 64px;      
       background-color: #F6F6F6;
-      
-      h2 {
-        margin-bottom: 16px;
-      }
-
-      .br-style {
-        display: none;
-      }   
-      
-    }    
-  }    
-}
-
-@media (max-width: 768px) {
-  .project-container {
-    margin-top: 520px;
-    h1 {
-      margin-top: 0;                  
+      padding: 16px;
     }
-    h2 {   
-      margin-bottom: 0;
-    }
-  }
-
-  .project-style {    
-    flex-direction: column;
-    text-align:left ;
-    margin-bottom: 0px;
     
     img {
-      width: 100%; 
-      height: auto;
-      padding-top: 64px;          
-    }
-
-    .p-r-80 {
-      padding-right:0;
-    }   
-
-    .content-style {
-      order: 2;
-      padding-top: 64px;      
-      background-color: #F6F6F6;
-      
-      h2 {
-        margin-bottom: 16px;
-      }
-
-      .br-style {
-        display: none;
-      }   
-      
+      order: 1;
+      width: auto; 
+      height: 135px;                    
     }    
-  }
-}
-
-@media (max-width:360px) {
-  .project-container {
-    margin-top: 140px;
-  }
+  } 
 }
