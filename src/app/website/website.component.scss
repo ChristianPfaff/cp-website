@@ -51,26 +51,11 @@
     right: 0;
     z-index: 1000;
   }  
-}
-
-@media (max-width:680px) {
-  .main {
-    position: relative;
-    width: 320px;
-
-    .inner-frame {
-      width: 300px;    }
-  } 
-
-  .nav {
-    position:fixed ;
-    right: 0;
-    z-index: 1000;
-    
-  }  
 
   mat-drawer {
-    width: 40%;
+    padding: 16px;
+    width: 30%;
+    position: fixed;
     a {      
       display: flex;
       flex-direction: column;
@@ -81,9 +66,26 @@
       color: #000000;
     }
   }
-
- 
 }
+
+@media (max-width:470px) {
+  mat-drawer {    
+    width: 45%;
+  }
+}
+
+@media (max-width:680px) {
+  .main {
+    position: relative;
+    width: 320px;
+
+    .inner-frame {
+      width: 300px;
+    }
+  } 
+}
+
+
 
 /* @media (max-width:680px) {
  
